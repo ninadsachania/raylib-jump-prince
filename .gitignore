@@ -1,5 +1,1 @@
-.vs/
-*.exe
-*.pdb
-
-intermediate/
+build/

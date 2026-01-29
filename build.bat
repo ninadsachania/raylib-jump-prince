@@ -11,6 +11,11 @@ cl /std:c++14 /Zi /W4 /Fe:main.exe ..\source\main.cpp ^
 	raylib.lib user32.lib gdi32.lib winmm.lib shell32.lib msvcrt.lib ^
 	/NODEFAULTLIB:libcmt /NODEFAULTLIB:msvcrtd
 
+copy ..\source_art\player.png .
+copy ..\source_art\player.png~ .
+copy ..\source_art\tilemap.png .
+copy ..\source_art\tileset.png~ .
+
 popd
 
 echo.
