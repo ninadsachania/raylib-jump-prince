@@ -1,5 +1,6 @@
 # Jump Prince
-[Jump King](https://store.steampowered.com/app/1061090/Jump_King/) Clone, written in C/C++ and Raylib, for learning purposes.
+
+[Jump King](https://store.steampowered.com/app/1061090/Jump_King/) clone, written in C/C++ and raylib, for learning purposes.
 
 ![gameplay](showcase.gif)
 
@@ -10,6 +11,7 @@ There are many comments to explain (briefly) what's going on.
 It could be a pretty good learning resource for people getting into raylib or C/C++ game development in general.
 
 ### Features
+
 - Tilemap VS Box collision resolution (position based, clips velocity)
 - Player movement
   - jumping, charging jumps, walking
