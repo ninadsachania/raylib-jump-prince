@@ -12,9 +12,7 @@ cl /std:c++14 /Zi /W4 /Fe:main.exe ..\source\main.cpp ^
 	/NODEFAULTLIB:libcmt /NODEFAULTLIB:msvcrtd
 
 copy ..\source_art\player.png .
-copy ..\source_art\player.png~ .
 copy ..\source_art\tilemap.png .
-copy ..\source_art\tileset.png~ .
 
 popd
 
