@@ -384,7 +384,7 @@ int main(int argc, const char** argv) {
     const int initialScreenHeight = TILEMAP_SIZE_Y * TILE_PIXELS;
 
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-    InitWindow(initialScreenWidth * 3, initialScreenHeight * 3, "raylib [core] example - keyboard input");
+    InitWindow(initialScreenWidth * 3, initialScreenHeight * 3, "Jump Prince");
     SetTargetFPS(60); // Set our game to run at 60 frames-per-second when possible
     SetExitKey(KEY_NULL);
 
