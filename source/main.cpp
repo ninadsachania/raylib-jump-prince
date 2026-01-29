@@ -2,7 +2,6 @@
 #include "raymath.h" // Vector math
 #include <stdint.h>
 #include <stdio.h> // printf
-#include <assert.h> // assert
 
 #define TILEMAP_SIZE_X 16
 #define TILEMAP_SIZE_Y 12
