@@ -196,7 +196,7 @@ void resolveBoxCollisionWithTilemap(const Tilemap* tilemap, float tilemapHeight,
 
             // Center of the tile box
             const Vector2 boxPos = { 0.5f + (float)x, 0.5f + (float)y };
-            const Vector2 sizeSum = { size.x + 0.5f, size.y + 0.5 };
+            const Vector2 sizeSum = { size.x + 0.5f, size.y + 0.5f };
             const Vector2 surfDist = {
                 fabsf(center->x - boxPos.x) - sizeSum.x,
                 fabsf(center->y - boxPos.y) - sizeSum.y,
@@ -283,7 +283,7 @@ bool isBoxCollidingWithTilemap(const Tilemap* tilemap, float tilemapHeight, Vect
 
             // Center of the tile box
             const Vector2 boxPos = { 0.5f + (float)x, 0.5f + (float)y };
-            const Vector2 sizeSum = { size.x + 0.5f, size.y + 0.5 };
+            const Vector2 sizeSum = { size.x + 0.5f, size.y + 0.5f };
             const Vector2 surfDist = {
                 fabsf(center.x - boxPos.x) - sizeSum.x,
                 fabsf(center.y - boxPos.y) - sizeSum.y,
